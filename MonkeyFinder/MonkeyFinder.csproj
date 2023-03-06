@@ -40,6 +40,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <PackageReference Include="CommunityToolkit.Mvvm" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <PackageReference Update="CommunityToolkit.Mvvm" Version="8.0.0" />
 	</ItemGroup>
 </Project>

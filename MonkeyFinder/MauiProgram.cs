@@ -18,7 +18,7 @@ public static class MauiProgram
 			});
 
 #if DEBUG
-		builder.Logging.AddDebug();
+		//builder.Logging.AddDebug();
 #endif
 
 		builder.Services.AddSingleton<IConnectivity>(Connectivity.Current);
